@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # coding=utf8
 
-# This is a watchdog script which connects to a delegate periodically to verify that it is up and running,
-# and to do some basic maintenance tasks if the delegate is not ready to sign blocks and report if it is
-# unhealthy
+# This is a script which connects to a delegate periodically to check if the pay balance is at a,
+# threshold set in the config.json file. If it is, it sends the balance_threshold amount to the payto account
+# specified.
 
 import requests
 import sys
