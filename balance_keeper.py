@@ -71,7 +71,7 @@ while True:
 
     print ("Balance for %s is currently: %s BTS" % (DELEGATE_NAME, balance))
 
-    if balance > 2000:
+    if balance > THRESH:
        print("wallet_delegate_withdraw_pay %s, %s, %s" % (DELEGATE_NAME, PAYTO, THRESH))
        response = call("wallet_delegate_withdraw_pay", [DELEGATE_NAME, PAYTO, THRESH])
     
