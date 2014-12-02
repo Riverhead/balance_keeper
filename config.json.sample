@@ -1,0 +1,11 @@
+{
+  "bts_rpc": {
+    "url": "http://localhost:9999/rpc",
+    "username": "",
+    "password": ""
+  },
+  "wallet_name": "",
+  "delegate_name": "",
+  "payto_account": "",
+  "balance_threshold": 99999999999
+}
